@@ -1,6 +1,4 @@
 import { NumbersCollection } from './NumbersCollection';
-
-
 class Sorter {
   constructor(public collection: /*something else */) {}
 
@@ -18,7 +16,3 @@ class Sorter {
     }
   }
 }
-
-const sorter = new Sorter([10, 3, -5, 0]);
-sorter.sort();
-console.log(sorter.collection);

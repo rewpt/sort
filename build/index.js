@@ -1,6 +1,6 @@
 "use strict";
 class Sorter {
-    constructor(collection) {
+    constructor(collection /*something else */) {
         this.collection = collection;
     }
     sort() {

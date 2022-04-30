@@ -1,5 +1,3 @@
-import { NumbersCollection } from "./NumbersCollection";
-
 // An interface for identifying if an input is sortable
 // Interfaces are useful because they make a contract between
 // two classes where if they have a certain make up they

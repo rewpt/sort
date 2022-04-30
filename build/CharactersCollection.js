@@ -8,5 +8,8 @@ class CharactersCollection {
     get length() {
         return this.data.length;
     }
+    compare(leftIndex, rightIndex) {
+        return (this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase());
+    }
 }
 exports.CharactersCollection = CharactersCollection;

@@ -1,5 +1,12 @@
 import { NumbersCollection } from "./NumbersCollection";
 
+// An interface for identifying if an input is sortable
+interface Sortable {
+  length: number;
+  compare(leftIndex: number, rightIndex: number): boolean;
+  swap(leftIndex: number, rightIndex: number): void;
+}
+
 export class Sorter {
   constructor(public collection: NumbersCollection) {}
 

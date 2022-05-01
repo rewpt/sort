@@ -2,11 +2,11 @@
 // Interfaces are useful because they make a contract between
 // two classes where if they have a certain make up they
 // can work together
-interface Sortable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightIndex: number): void;
-}
+// interface Sortable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightIndex: number): void;
+// }
 
 // Sorter is an abstract class, so we can call methods
 // that don't exist yet that we expect to exist in the child class

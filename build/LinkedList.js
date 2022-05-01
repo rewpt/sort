@@ -54,6 +54,14 @@ class LinkedList {
         if (!this.head) {
             throw new Error("List is Empty");
         }
+        return this.at(leftIndex).data > this.at(rightIndex).data;
+    }
+    swap(leftIndex, rightIndex) {
+        const leftNode = this.at(leftIndex);
+        const rightNode = this.at(rightIndex);
+        const leftHand = leftNode.data;
+        leftNode.data = rightNode.data;
+        rightNode.data = leftHand;
     }
 }
 exports.LinkedList = LinkedList;

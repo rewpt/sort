@@ -63,5 +63,15 @@ class LinkedList {
         leftNode.data = rightNode.data;
         rightNode.data = leftHand;
     }
+    print() {
+        if (!this.head) {
+            return;
+        }
+        let node = this.head;
+        while (node) {
+            console.log(node.data);
+            node = node.next;
+        }
+    }
 }
 exports.LinkedList = LinkedList;

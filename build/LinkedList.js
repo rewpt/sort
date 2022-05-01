@@ -50,5 +50,10 @@ class LinkedList {
         }
         throw new Error("Index out of bounds");
     }
+    compare(leftIndex, rightIndex) {
+        if (!this.head) {
+            throw new Error("List is Empty");
+        }
+    }
 }
 exports.LinkedList = LinkedList;
